@@ -1,0 +1,115 @@
+*{
+margin: 0;
+padding: 0;
+}
+.hero ,footer{
+    background-color: #1F2937;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.firstSign{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border: 2px solid ;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+section{
+    height:40vh ;
+}
+.hero ul{
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bold{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937; 
+}
+.section3{
+    height: inherit;
+    background-color:#E5E7EB; 
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+justify-content: space-between;
+padding: 15px 15%;
+}
+.section1{
+    display: flex;
+    padding: 40px 15%;
+}
+.section1 img{
+    width: 450px;
+}
+.flexbox{
+    display: flex;
+}
+footer p, .section2 p{
+      text-align: center;
+}
+.lastbox{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    display: flex;
+    top: 30px;
+    padding: 34px 159px;;
+    justify-content: space-between;
+
+}
+.card img{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+}
+.card{
+    margin: 5px;
+}
+.section2 ,.section3,.section4{
+    padding: 15px 15%;
+    height: 40vh;
+}
+.section4{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    padding: 15px;
+}
+.author{
+    text-align: end;
+    font-weight: bold;
+}
+.call {
+    font-weight: bolder;
+}
+.lastSign{
+    border: 1px solid #E5E7EB;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 15px 38px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.lastbox p{
+    margin: 5px;
+}
