@@ -6,4 +6,16 @@ function getComputerChoice(){
     return choices[index];
 }
 
-console.log(getComputerChoice());
+function getHumanChoice(){
+    let hchoice = prompt("Enter your choice :");
+    while(true){
+    if(hchoice == "rock" || hchoice =="paper" || hchoice == "scissors"){
+        return hchoice;
+    }
+    else{
+       hchoice= prompt("Enter valid choice:");
+    }
+    }
+}
+
+console.log(getHumanChoice());
