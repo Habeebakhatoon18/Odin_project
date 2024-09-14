@@ -1,5 +1,7 @@
 console.log("starting here!");
 
+let humanScore = 0, computerScore = 0;
+
 function getComputerChoice(){
     let choices = ["rock","paper","scissors"];
     let index = Math.floor(Math.random()*3);
