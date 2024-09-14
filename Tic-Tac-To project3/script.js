@@ -11,7 +11,7 @@ function getComputerChoice(){
 function getHumanChoice(){
     let hchoice = prompt("Enter your choice :");
     while(true){
-    if(hchoice == "rock" || hchoice =="paper" || hchoice == "scissors"){
+    if(hchoice.toLowerCase() == "rock" || hchoice.toLowerCase() =="paper" || hchoice.toLowerCase() == "scissors"){
         return hchoice;
     }
     else{
@@ -21,3 +21,24 @@ function getHumanChoice(){
 }
 
 console.log(getHumanChoice());
+function playRound(getHumanChoice ,getComputerChoice){
+    let humanSelection = getHumanChoice();
+    let computerSelection = getComputerChoice();
+
+    if(humanSelection == computerSelection){
+        console.log("round tied !");
+    }
+
+    else if(humanSelection == "rock" && computerSelection == "scissors" ||humanSelection =="scissors" &&  computerSelection == "paper" || humanSelection == "paper" && computerSelection =="rock" ) 
+        {
+        console.log(`You win ! ${humanSelection} beats ${computerSelection}`);
+        humanScore += 1;
+    }
+
+    else{
+        console.log(`Computer win ! ${computerSelection} beats ${humanSelection} `);
+        computerScore +=1;
+    }
+
+}
+
